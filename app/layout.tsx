@@ -1,7 +1,36 @@
 import React from "react"
 import type { Metadata } from 'next'
+import localFont from 'next/font/local'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+
+const niveauGrotesk = localFont({
+  src: [
+    {
+      path: '../public/fonts/NiveauGroteskLight.woff2',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/NiveauGroteskRegular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/NiveauGroteskMedium.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/NiveauGroteskBold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-niveau',
+  display: 'swap',
+  fallback: ['system-ui', 'sans-serif'],
+});
 
 export const metadata: Metadata = {
   title: 'FADU - Candidatura à Presidência do CNJ',
@@ -33,7 +62,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt" className="dark">
-      <body className="font-sans antialiased">
+      <body className={`${niveauGrotesk.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

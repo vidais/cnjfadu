@@ -31,7 +31,7 @@ const areas = [
     icon: Leaf,
     colorClass: "bg-[#4aedc4]",
     textColor: "text-[#0a1e6e]",
-    size: "large",
+    size: "medium",
   },
   {
     title: "Associativismo e Participação Cívica",
@@ -71,7 +71,7 @@ const areas = [
     icon: Heart,
     colorClass: "bg-[#3b82f6]",
     textColor: "text-white",
-    size: "large",
+    size: "small",
   },
   {
     title: "Educação e Qualificação",
@@ -112,7 +112,7 @@ const areas = [
     icon: Activity,
     colorClass: "bg-[#4aedc4]",
     textColor: "text-[#0a1e6e]",
-    size: "large",
+    size: "medium",
   },
   {
     title: "Voluntariado",

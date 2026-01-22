@@ -8,10 +8,6 @@ export function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       
       <div className="relative mx-auto max-w-7xl px-6 py-32 lg:px-8 text-center">
-        <p className="text-sm font-medium tracking-widest text-accent uppercase mb-8">
-          <br>
-        </p>
-        
         <div className="flex justify-center mb-10">
           <Image
             src="/images/juntos_c_verde.png"

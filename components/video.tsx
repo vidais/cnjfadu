@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
-export function Video() {
+export default function Video() {
   return (
     <section className="relative min-h-screen flex items-center justify-center">
       {/* Hero content container */}

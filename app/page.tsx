@@ -1,6 +1,6 @@
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
-import { Video } from "@/components/video";
+import  Video  from "@/components/video";
 import { StrategicVision } from "@/components/strategic-vision";
 import { InterventionAreas } from "@/components/intervention-areas";
 import { About } from "@/components/about";

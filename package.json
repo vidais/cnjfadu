@@ -1,11 +1,11 @@
 {
   "name": "CNJ-FADU",
   "version": "0.3.0",
-"homepage": "https://vidais.github.io/cnj-fadu",
+"homepage": "https://vidais.github.io/cnjfadu",
   "private": true,
   "scripts": {
 	  "predeploy":"npm run build",
-	  "deploy":"gh-pages -d build",
+	  "deploy":"gh-pages -d out",
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",

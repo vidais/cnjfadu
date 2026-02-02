@@ -7,10 +7,10 @@ import { Menu, X, Twitter, Facebook, Instagram } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navigation = [
-  { name: "Visão Estratégica", href: "#visao" },
-  { name: "Áreas de Intervenção", href: "#areas" },
-  { name: "Sobre Nós", href: "#sobre" },
-  { name: "Contacto", href: "#contacto" },
+  { name: "Francisco Garcia", href: "francisco_garcia" },
+  { name: "FADU", href: "fadu" },
+  {name: "Áreas de Intervenção", href:"intervenctionAreas"},
+  {name: "Sabe Mais", href:"sabe_mais"},
 ]
 
 export function Header() {

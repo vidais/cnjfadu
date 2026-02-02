@@ -5,7 +5,7 @@
 
 :root {
   --background: oklch(0.985 0 0);
-  --foreground: oklch(0.15 0 0);
+  --foreground: #ffffff;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.15 0 0);
   --popover: oklch(1 0 0);
@@ -41,7 +41,7 @@
 
 .dark {
   --background: oklch(0.18 0.08 260);
-  --foreground: oklch(0.98 0 0);
+  --foreground: #ffffff;
   --card: oklch(0.22 0.06 260 / 0.6);
   --card-foreground: oklch(0.98 0 0);
   --popover: oklch(0.20 0.07 260);
@@ -121,7 +121,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-white;
     background-image: url('/images/bg.jpg');
     background-size: cover;
     background-position: center;

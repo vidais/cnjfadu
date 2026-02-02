@@ -1,6 +1,6 @@
-import Link from "next/link"
-import Image from "next/image"
-import { Twitter, Facebook, Instagram } from "lucide-react"
+import Link from "next/link";
+import Image from "next/image";
+import { Twitter, Facebook, Instagram } from "lucide-react";
 
 const navigation = {
   main: [
@@ -26,7 +26,7 @@ const navigation = {
       icon: Instagram,
     },
   ],
-}
+};
 
 export function Footer() {
   return (
@@ -42,7 +42,7 @@ export function Footer() {
               className="h-10 w-auto"
             />
           </Link>
-          
+
           <nav className="mb-6 flex flex-wrap justify-center gap-x-8 gap-y-2">
             {navigation.main.map((item) => (
               <Link
@@ -54,7 +54,7 @@ export function Footer() {
               </Link>
             ))}
           </nav>
-          
+
           <div className="flex gap-6 mb-8">
             {navigation.social.map((item) => (
               <Link
@@ -67,17 +67,18 @@ export function Footer() {
               </Link>
             ))}
           </div>
-          
+
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
               Juntos na Diversidade pela nossa Geração
             </p>
             <p className="mt-2 text-xs text-muted-foreground">
-              &copy; {new Date().getFullYear()} Federação Académica do Desporto Universitário. Todos os direitos reservados.
+              &copy; {new Date().getFullYear()} Federação Académica do Desporto
+              Universitário. Todos os direitos reservados.
             </p>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }

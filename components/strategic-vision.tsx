@@ -46,7 +46,7 @@ const pillars = [
 
 export function StrategicVision() {
   return (
-    <section id="visao" className="py-24 sm:py-32 bg-background/40 backdrop-blur-sm">
+    <section id="visao" className="py-24 sm:py-32 ">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-medium tracking-widest text-accent uppercase mb-4">
@@ -70,7 +70,6 @@ export function StrategicVision() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent mb-4 group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
                   <pillar.icon className="h-6 w-6" />
                 </div>
-                <p className="text-xs font-medium text-muted-foreground mb-2">0{index + 1}</p>
                 <h3 className="font-semibold text-foreground mb-3 leading-tight">
                   {pillar.title}
                 </h3>
